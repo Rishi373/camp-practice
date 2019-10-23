@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+     
+body{
+    background: darkgoldenrod;
+}
+
+.nav0{
+    width: 100%;
+    text-align: baseline;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.nav1{
+    color: black;
+    font-size: 40px;
+    width: 40%;
+    padding-left: 5px;
+}
+
+.nav2{
+    color: black;
+    font-size: 24px;
+    margin: auto;
+    padding-left: 32%;
+}
+
+nav>a{
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.banner{
+    background: url("banimg7.jpg");
+    position: relative;
+    width: auto;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+}
+
+
+.banbox{
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    left: 80%;
+    top: 72%;
+    background: rgba(154, 205, 50, 0.5);
+}
+
+
+.head1{
+    color: lightsteelblue;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    font-size: 25px;
+    }
+
+.clic1{
+    background-color: darkgray;
+    color: whitesmoke;
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    width: 60%;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+
+.parendiv2{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box21{
+    padding: 3%;
+    margin: 10px;
+    background-color:indianred;
+    text-align: center;
+}
+
+.box22{
+    padding: 3%;
+    margin: 10px;
+    background-color: darkturquoise;
+    text-align: center;
+}
+
+.box23{
+    padding: 3%;
+    margin: 10px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.box24{
+    padding: 3%;
+    margin: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.box21, .box22, .box23, .box24{
+    border: 2px groove;
+}
+
+.box21:hover, .box22:hover, .box23:hover, .box24:hover{
+    transform: scale(1.08);
+}
+
+ 
+@media (min-width:767px) and (max-width:1240px){
+
+    .head1{
+        font-size: 16px;
+    }
+
+    .clic1{
+        width: 75%;
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .banbox{
+        width: 18%;
+        height: 25%;
+    }
+
+    .nav1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .nav2{
+        font-size: 15px;
+        padding-left: 36%;
+    }
+
+    .banner{
+        height: 350px;
+    }
+
+}
+
+
+@media (max-width: 767px){
+    
+    .head1{
+        font-size: 10px;
+    }
+
+    .banner{
+        height: 280px;
+    }
+
+    .nav1{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .nav2{
+        font-size: 12px;
+        padding-left: 10%;
+    }
+
+    .clic1{
+        width: 75%;
+        font-size: 8px;
+        font-weight: bold;
+        
+    }
+
+    .banbox{
+        width: 18%;
+        height: 20%;
+    }
+
+} 
