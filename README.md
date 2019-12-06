@@ -1,2 +1,2 @@
 # camp-practice
-HTML, CSS codealong
+HTML, CSS and JavaScript
