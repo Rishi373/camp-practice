@@ -1,0 +1,11 @@
+function main1(m1){
+   
+    function main2(m2){
+        var d1 = m1+m2;
+		return d1;
+    }
+return main2(50);
+}
+
+var f = main1(40);
+console.log(f);

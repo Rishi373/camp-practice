@@ -1,0 +1,12 @@
+function newone(a){
+
+    function newtwo(b){
+        var x = a+b;
+        return x;
+    }
+
+    return newtwo(16);
+}
+
+var newthree = newone(14);
+newthree();

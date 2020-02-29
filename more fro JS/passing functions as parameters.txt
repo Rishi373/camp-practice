@@ -1,0 +1,19 @@
+function formalgreeting(){
+    console.log('how are you');
+}
+
+function casualgreeting(){
+    console.log('whats up!');
+}
+
+                function greet(type, greetformal, greetcasual){
+                                                                if(type==='formal'){
+        greetformal();
+    }
+    
+    else if(type==='casual'){
+            greetcasual();
+    }
+                }
+
+greet('casual', formalgreeting, casualgreeting);

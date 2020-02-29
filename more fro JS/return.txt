@@ -1,0 +1,15 @@
+//The inner function can access the variable of the outer function even when the outer funcion is out of scope.
+
+function newone(){
+    var ky = "hello";
+
+    function newtwo(){
+        var d1 = 10;
+        console.log(ky);
+    }
+
+    return newtwo;
+}
+
+var newthree = newtwo();
+console.log(newthree);

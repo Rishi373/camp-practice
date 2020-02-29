@@ -1,0 +1,30 @@
+function counter(initValue) {
+
+    var currentValue = initValue;
+
+    var increment = function(step) {
+
+        currentValue += step;
+        console.log('currentValue = ' + currentValue);   
+                        
+                             };
+
+    var decrement = function(step) {
+
+        currentValue -= step; 
+        console.log('currentValue = ' + currentValue);   
+                    
+                     }
+    return {
+                  increment: increment, 
+                  decrement: decrement
+           };
+}
+
+
+        var myCounter = counter(0);    // myCounter now refers to the object returned by counter
+        myCounter.increment(1);       // call the appropriate "property" function using dot notation 
+        myCounter.increment(2); 
+        myCounter.decrement(1); 
+        myCounter.increment(3); 
+        myCounter.decrement(2);

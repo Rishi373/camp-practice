@@ -1,0 +1,10 @@
+this keyword refers to the object it belongs to
+
+where does it point:
+
+regular function call. this keyword points at the global object (which is the window objectin the browser)
+
+method call: the this keyword points to the object that is calling the method.
+
+the this keyword is not assigned a value until a function where it is defined is actually called.
+

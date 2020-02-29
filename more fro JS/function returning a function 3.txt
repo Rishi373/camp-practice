@@ -1,0 +1,15 @@
+function dat1(v1){
+
+		return function dat2(v2){
+
+					return function dat3(v3){
+									var w = v1+v2+v3;
+									return w;
+							}
+				}
+}
+
+var ji = dat1(40);
+var ki = ji(50);
+var w1 = ki(60);
+console.log(w1);

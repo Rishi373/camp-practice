@@ -1,0 +1,6 @@
+function greeting(){
+    console.log('hello!')
+}
+
+greeting.lang='english'
+console.log(greeting.lang)

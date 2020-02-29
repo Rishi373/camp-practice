@@ -1,0 +1,10 @@
+var peoname = function(){
+    var prin = "xyz";
+
+    return function(){
+			console.log(prin);
+			}
+}
+
+var stored = peoname();
+stored();

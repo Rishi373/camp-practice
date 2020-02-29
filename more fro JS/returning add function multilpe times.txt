@@ -1,0 +1,11 @@
+function function1(d1){
+                return function function2(d2){
+                    console.log(d1+d2);         // will only print and will be returned by function
+                        return d1+d2;       // will return but not print
+						
+                }
+             }
+
+      var add = function1(6);
+      add(10);
+      add(21);
